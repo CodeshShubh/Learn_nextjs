@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata:Metadata = {
+    title:'products Page',
+    description:'Product description'
+}
 export default function Products() {
     return (
         <div>

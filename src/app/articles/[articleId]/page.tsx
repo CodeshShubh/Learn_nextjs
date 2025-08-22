@@ -6,6 +6,16 @@ export default async function newsArticles({ params, searchParams }: { params: P
 
        const {lang = 'en'} = await searchParams; // initially
 
+          function randomValue(val:number){
+           return Math.floor((Math.random()*val))
+          }
+
+          const count =  randomValue(2)
+
+           if(count==1){
+             throw new Error('custom Error')
+           }
+
     return (
         <div>
             <h1>newsArticle Name - {articleId}</h1>

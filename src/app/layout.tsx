@@ -35,6 +35,7 @@ export default function registerLayout({children}: {children: React.ReactNode}) 
                             )
                          })
                      } */}
+                        
                     {children}
                 
             </body>

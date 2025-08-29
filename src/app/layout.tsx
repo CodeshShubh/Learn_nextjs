@@ -49,7 +49,7 @@ export default function registerLayout({children}: {children: React.ReactNode}) 
                             )
                          })
                      } */}
-                        
+                        <p>home</p>
                    {/* <ErrorWrapper> */}
                         {children}
                    {/* </ErrorWrapper> */}

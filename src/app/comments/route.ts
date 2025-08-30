@@ -34,3 +34,4 @@ export async function GET(req:NextRequest) {
            // name=fuckyou1&name=fuckyou2 but if we need partially search we use filter and some same time
     return Response.json(filterComments)
 }
+

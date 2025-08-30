@@ -2,9 +2,8 @@ import Link from "next/link";
 
 export default function Page() {
     return (
-        <div>
-            f2 main content
-            <Link href={'/f4'}>f4</Link>
+        <div>inner f2 Page
+            <Link href={"/f5"}>f5</Link>
         </div>
     );
 }
